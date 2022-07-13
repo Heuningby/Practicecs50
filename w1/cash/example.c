@@ -4,20 +4,19 @@
 int main(void) 
 {
     int cardno;
-    int length;
-    char testing[16];
     do
     {
         do
         {
+            // Prompts user for card number
+            int cardno;
             printf("Number:");
             scanf("%d", &cardno);
-            sprintf(testing, "%d", cardno);
-            length = strlen(testing);
-        } 
-        while (&testing < 1);
-    } 
-    while (&testing > 16);
+            char testing[16];
+            sprintf(testing, "%d", num);
+            int length = strlen(testing);
+        } while (length < 1);
+    } while (length > 16);
     
-    printf("Valid\n");
+    printf("Name length: %u\n", length);
 }
