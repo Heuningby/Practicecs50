@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-* Description: Builds right aligned pyramid with users input between 1 and 8.
+* Description: Builds pyramid with users input between 1 and 8.
 * main - main block
 * return: 0
 */
@@ -23,12 +23,17 @@ int main(void)
     {
         for (int j = n; j > i; j--)
         {
-            printf(".");
+            printf(" ");
         }
         for (int h = -1; h < i; h++)
         {
              printf("#");
         }
+       printf(" ");
+       for (int g = -1; g < i; g++)
+       {
+            printf("#");
+       }   
        printf("\n");
     }
 }
