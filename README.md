@@ -1,5 +1,6 @@
 # Practicecs50
 Harvard CS50 Introduction to Computer Science.
+
 Covers class examples, problem sets and labs.
 
 week 1: C
@@ -13,9 +14,9 @@ week 3: Algorithms
 Ps 3: Plularity, Runoff, Tideman
 Lab 3:Sort
 
-week 4: Memory
-PS 4: Filter-less, Filter-more, Recover
-Lab 4: Volume
+week 4: Memory.
+PS 4: Filter-less, Filter-more, Recover.
+Lab 4: Volume.
 
 week 5: Data structures
 Ps 5: Speller
